@@ -1,0 +1,194 @@
+/* fonts are links here  */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header area css start here  */
+
+
+.header-area{
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header-area-text h6{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+    font-family: "Merriweather", serif;
+    line-height: normal;
+}
+.header-area-text h1{
+    color: #fff;
+    font-size: 72px;
+    font-weight: 900;
+    font-family: "Merriweather";
+    line-height: normal;
+}
+
+/* header area css end here  */
+
+
+/* offer area css start here  */
+.offer{
+    text-align: center;
+}
+
+
+.offer h2{
+    color: #f00;
+    font-family: "Inter";
+    font-size: 88px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top:120px ;
+}
+
+.offer p{
+    color: #f00;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "inter";
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.offer h3{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "inter";
+    margin-bottom: 48px;
+}
+
+.offer-image{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.offer-image img{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+/* offer area css end here  */
+
+
+/* welcome area css start here  */
+.welcome{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vector.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-radius: 16px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 120px;
+    gap: 30px;
+    margin-bottom: 120px;
+}
+
+.welcome-text h1{
+    color: #fff;
+    font-size: 64px;
+    font-family: "Merriweather";
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.welcome-text p{
+    color: rgba(255, 255, 255, 0.88);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "inter";
+    margin-bottom: 48px;
+}
+
+.welcome-text button{
+    font-size: 20px;
+    font-family: "inter";
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+
+.welcome-2024 img{ 
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+/* welcome area css end here  */
+
+
+/* date area css start here  */
+.date-area{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 100%;
+    height: 482px;
+    text-align: center;
+    display: block;
+    border-radius: 16px;
+}
+.data-area-text{
+    padding-top: 100px;
+}
+.date-area span{
+    color: #f00;
+    font-family: "inter";
+    font-size: 32px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.data-area-text h2{
+    color: #070211;
+    font-family: "inter";
+    font-size: 32px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.primary-btn{
+    width: 168px;
+    height: 56px;
+    background-color: #ff0000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 46px;
+    border: none;
+    border-radius: 16px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* date area css end here  */
